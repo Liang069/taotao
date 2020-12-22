@@ -12,12 +12,15 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/../sziit-dubbo-comsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/../sziit-dubbo-serviceImpl/pom.xml" />
         <option value="$PROJECT_DIR$/../taotao-manager/taotao-interface/pom.xml" />
         <option value="$PROJECT_DIR$/../taotao-manager/taotao-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../taotao-parent/sziit.dubbo-interface/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

@@ -15,16 +15,33 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="taotao-common" target="1.5" />
+      <module name="sziit-dubbo-comsumer" target="1.8" />
+      <module name="sziit-dubbo-interface" target="1.8" />
+      <module name="sziit-dubbo-serviceImpl" target="1.8" />
+      <module name="sziit.dubbo-interface" target="1.5" />
+      <module name="taotao-common" target="1.8" />
       <module name="taotao-interface" target="1.5" />
-      <module name="taotao-manager" target="1.5" />
-      <module name="taotao-manager-interface" target="1.5" />
-      <module name="taotao-manager-mapper" target="1.5" />
-      <module name="taotao-manager-pojo" target="1.5" />
-      <module name="taotao-manager-service" target="1.5" />
-      <module name="taotao-manager-web" target="1.5" />
-      <module name="taotao-parent" target="1.5" />
+      <module name="taotao-manager" target="1.8" />
+      <module name="taotao-manager-interface" target="1.8" />
+      <module name="taotao-manager-mapper" target="1.8" />
+      <module name="taotao-manager-pojo" target="1.8" />
+      <module name="taotao-manager-service" target="1.8" />
+      <module name="taotao-manager-web" target="1.8" />
+      <module name="taotao-parent" target="1.8" />
       <module name="taotao-service" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sziit-dubbo-comsumer" options="-parameters" />
+      <module name="sziit-dubbo-interface" options="-parameters" />
+      <module name="sziit-dubbo-serviceImpl" options="-parameters" />
+      <module name="taotao-common" options="-parameters" />
+      <module name="taotao-manager-interface" options="-parameters" />
+      <module name="taotao-manager-mapper" options="-parameters" />
+      <module name="taotao-manager-pojo" options="-parameters" />
+      <module name="taotao-manager-service" options="-parameters" />
+      <module name="taotao-manager-web" options="-parameters" />
+    </option>
   </component>
 </project>
